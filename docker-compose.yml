@@ -1,0 +1,7 @@
+services:
+  java:
+    image: openjdk
+    volumes:
+      - .:/app
+    command: java Array.java
+    
